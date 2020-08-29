@@ -2,6 +2,8 @@
 ## functions do
 
 ## Write a short comment describing this function
+## Developed by Ankur Shrivastava on 29/08/2020
+## Below Function is used to set, get Matrix and further get and set the inverse os matrix as well
 
 makeCacheMatrix <- function(x = matrix()) {
         mat <- NULL
@@ -19,7 +21,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-
+## Developed by Ankur Shrivastava on 29/08/2020
+## Below Function is used to validate value of value of inverse of matrix in cache and if not then calculate the value of inverse of matrix
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
         m <- x$getinverse()
